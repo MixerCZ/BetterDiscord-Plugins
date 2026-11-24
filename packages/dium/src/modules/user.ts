@@ -94,7 +94,7 @@ export interface UserStore extends Store {
     __getLocalVars(): any;
 }
 
-export const UserStore: UserStore = /* @__PURE__ */ Finder.byName("UserStore");
+export const UserStore: UserStore = /* @__PURE__ */ Finder.byName("UserStore", { entries: true });
 
 export const enum StatusTypes {
     DND = "dnd",

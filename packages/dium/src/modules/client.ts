@@ -108,7 +108,7 @@ export interface LocaleStore extends Store {
     __getLocalVars(): any;
 }
 
-export const LocaleStore: LocaleStore = /* @__PURE__ */ Finder.byName("LocaleStore");
+export const LocaleStore: LocaleStore = /* @__PURE__ */ Finder.byName("LocaleStore", { entries: true });
 
 export interface ThemeStore extends Store {
     get theme(): any;
